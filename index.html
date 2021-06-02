@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Reservia</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" href="P2_ressources/fontawesome-free-5.15.3-web/css/all.css" />
+	<!--<script src="https://kit.fontawesome.com/42b4c7ff33.js" crossorigin="anonymous"></script>-->
+</head>
+
+<body>
+	<div id="header_and_page">
+		<header> <!--logo=link to homepage / edit 'href' ?-->
+			<a id="logo" href="index.html"><img src="images/logo/Reservia.svg" alt="Logo Reservia"></a>
+			<a id="subscribe" href=""><p>S'inscrire</p></a> <!--subsribe=link to appropriate page-->
+			<nav>
+				<ul>
+					<!--remplir les href-->
+					<li><a href="#hebergements">Hébergements</a></li>
+					<li><a href="#activites">Activités</a></li>
+				</ul>
+			</nav>
+		</header>
+		<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+		<p>En plein centre ville ou en pleine nature</p>
+		<i class="fa-regular fa-eye"></i>
+		<form method="post" acton="process.php">
+			<p>
+				<label><span class="fas fa-camera"></span></label>
+				<input type="search" name="city" id="search_city" placeholder="Marseille,France" />
+			</p>
+			<input type="submit" idvalue="Recherche" />
+		</form>
+		<div class="flex_bloc">
+			<aside>
+				<h1>Les plus populaires</h1>
+			</aside>
+			<section id="hebergements">
+				<h1>Hébergements à Marseille</h1>
+				<!--en construction-->
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p>
+				<p>...</p><p>...</p>
+				<p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p>
+			</section>
+		</div>
+		<section id="activites">
+			<h1>Activités à Marseille</h1>
+			<p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p><p>...</p>
+			
+			<!--en construction-->
+		</section>
+	</div>
+	<footer>
+		<!--Add appropriate destination pages in Links-->
+		<!--For additional menus in the footer, use "class='foot-list'"-->
+		<div class="foot-list">
+			<dl>
+				<dt>A propos</dt>
+				<dd><a href="">Fonctionnement du site</a></dd>
+				<dd><a href="">Conditions générales de vente</a></dd>
+				<dd><a href="">Données et confidentialité</a></dd>
+			</dl>
+		</div>
+		<div class="foot-list">
+			<dl>
+				<dt>Nos hébergements</dt>
+				<dd><a href="">Charte qualité</a></dd>
+				<dd><a href="">Soumettre votre hôtel</a></dd>
+			</dl>
+		</div>
+		<div class="foot-list">
+			<dl>
+				<dt>Assistance</dt>
+				<dd><a href="">Centre d'aide</a></dd>
+				<dd><a href="">Nous contacter</a></dd>
+			</dl>
+		</div>
+	</footer>
+</body>
+</html>
